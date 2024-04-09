@@ -1,7 +1,9 @@
 import Selector from './selector';
 import Clear from './clear';
 import Personal from './personal';
-import Information from './information';
+import Education from './education';
+import Experience from './experience';
+
 import '../styles/navigation.css';
 
 function Navigation() {
@@ -10,8 +12,8 @@ function Navigation() {
       <Selector></Selector>
       <Clear></Clear>
       <Personal></Personal>
-      <Information></Information>
-      <Information></Information>
+      <Experience></Experience>
+      <Education></Education>
     </div>
   );
 }

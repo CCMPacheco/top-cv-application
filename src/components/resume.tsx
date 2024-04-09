@@ -5,7 +5,8 @@ function Resume() {
   return (
     <main>
       <Title />
-      <Content />
+      <Content title="Experience" />
+      <Content title="Education" />
     </main>
   );
 }
